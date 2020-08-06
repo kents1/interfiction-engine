@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+    <parent>
+        <artifactId>interfiction-module</artifactId>
+        <groupId>uk.co.engine.interfiction</groupId>
+        <version>1.0.0-SNAPSHOT</version>
+    </parent>
+
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>interfiction-module-account</artifactId>
+    <packaging>pom</packaging>
+
+    <name>InterFiction Module Account</name>
+
+    <modules>
+        <module>interfiction-module-account-presentation</module>
+        <module>interfiction-module-account-infrastructure</module>
+        <module>interfiction-module-account-core</module>
+    </modules>
+
+</project>

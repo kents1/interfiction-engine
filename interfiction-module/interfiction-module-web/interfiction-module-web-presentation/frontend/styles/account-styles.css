@@ -1,0 +1,205 @@
+#scripts {
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.script {
+    display: inline-block;
+    overflow: hidden;
+    padding: 20px;
+    vertical-align: middle;
+}
+
+.script > p {
+    font-family: 'Cedarville Cursive', cursive;
+    color: #36413E;
+    font-size: 0.8em;
+    animation: fade 5s linear infinite alternate forwards running;
+    margin: 0;
+}
+
+#script-one > p {
+    opacity: 5%;
+    animation-delay: 0s;
+}
+
+#script-two > p {
+    opacity: 15%;
+    animation-delay: 3s;
+}
+
+#script-three > p {
+    opacity: 30%;
+    animation-delay: 5s;
+}
+
+#script-four > p {
+    opacity: 21%;
+    animation-delay: 4s;
+}
+
+#script-six > p {
+    opacity: 26%;
+    animation-delay: 1.5s;
+}
+
+#script-seven > p {
+    opacity: 9%;
+    animation-delay: 3.2s;
+}
+
+#script-eight > p {
+    opacity: 11%;
+    animation-delay: 5s;
+}
+
+#script-nine > p {
+    opacity: 23%;
+    animation-delay: 0.5s;
+}
+
+@keyframes fade {
+    from {opacity: 5%;}
+    to {opacity: 35%;}
+}
+
+#script-one {
+    max-width: 30%;
+    max-height: 30%;
+    margin: 0 auto;
+}
+
+#script-two {
+    max-width: 15%;
+    max-height: 30%;
+    margin: 0 auto;
+}
+
+#script-three {
+    max-width: 30%;
+    max-height: 30%;
+    margin: 0 auto;
+}
+
+#script-four {
+    max-width: 18%;
+    max-height: 30%;
+    margin: 0 auto;
+}
+
+#script-five {
+    max-width: 33%;
+    max-height: 30%;
+    margin: 0 auto;
+}
+
+#script-six {
+    max-width: 24%;
+    max-height: 30%;
+    margin: 0 auto;
+}
+
+#script-seven {
+    max-width: 30%;
+    max-height: 30%;
+    margin: 0 auto;
+}
+
+#script-eight {
+    max-width: 13%;
+    max-height: 30%;
+    margin: 0 auto;
+}
+
+#script-nine {
+    max-width: 32%;
+    max-height: 30%;
+    margin: 0 auto;
+}
+
+#overlay {
+    width: 100%;
+    height: calc(100% - 46px);
+    position: fixed;
+    left: 0;
+    top: 46px;
+    overflow: hidden;
+    z-index: 1;
+}
+
+#register-form {
+    position: relative;
+    margin: 0 auto;
+    width: 630px;
+    height: 460px;
+    background-color: #ffffff;
+    top: calc(50% - 230px);
+    box-shadow: 4px 4px 4px 2px rgba(179, 179, 179, 0.4);
+}
+
+#display-panel {
+    display: inline-block;
+    width: 270px;
+    height: 460px;
+    background: rgb(98, 117, 112);
+    background: linear-gradient(0, rgba(98, 117, 112, 1) 20%, rgba(54, 65, 62, 1) 100%);
+}
+
+#display-panel > img {
+    padding: 16px 0 0 16px;
+}
+
+#display-panel > span {
+    font-size: 9pt;
+    color: #ffffff;
+    font-style: italic;
+    width: 100%;
+    text-align: center;
+    display: inline-block;
+}
+
+#display-panel > h1 {
+    margin: 90px 0 0 0;
+    text-align: center;
+}
+
+#form-content {
+    display: inline-block;
+    position: absolute;
+    width: 360px;
+    height: 460px;
+}
+
+.form-field {
+    width: 100%;
+}
+
+#form {
+    display: flex;
+    flex-direction: row;
+    padding: 12px;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+}
+
+.form-field.inline {
+    width: 50%;
+}
+
+#register-btn {
+    margin-top: auto;
+    cursor: pointer;
+}
+
+#sign-in-btn {
+    margin-top: auto;
+    margin-left: auto;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+

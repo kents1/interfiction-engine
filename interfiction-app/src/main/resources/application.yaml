@@ -1,0 +1,4 @@
+spring:
+  mustache:
+    check-template-location: false
+debug: false
