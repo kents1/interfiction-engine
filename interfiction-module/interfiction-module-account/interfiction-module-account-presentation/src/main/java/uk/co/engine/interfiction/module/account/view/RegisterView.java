@@ -16,7 +16,7 @@ import com.vaadin.flow.router.Route;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
-import uk.co.engine.interfiction.module.account.exception.UserAccountCreationException;
+import uk.co.engine.interfiction.module.account.service.UserAccountCreationException;
 import uk.co.engine.interfiction.module.account.model.RegistrationModel;
 import uk.co.engine.interfiction.module.account.service.UserService;
 import uk.co.engine.interfiction.module.shared.converter.StringCapitaliseConverter;

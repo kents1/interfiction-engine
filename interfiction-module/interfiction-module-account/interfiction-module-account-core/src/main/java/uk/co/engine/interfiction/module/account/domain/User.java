@@ -1,6 +1,6 @@
 package uk.co.engine.interfiction.module.account.domain;
 
-import uk.co.engine.interfiction.module.account.exception.UserAccountCreationException;
+import uk.co.engine.interfiction.module.account.service.UserAccountCreationException;
 import uk.co.engine.interfiction.module.account.port.HasAccountModifier;
 import uk.co.engine.interfiction.shared.domain.EmailAddressVO;
 

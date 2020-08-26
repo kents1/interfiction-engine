@@ -5,7 +5,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
 import org.springframework.transaction.annotation.Transactional;
 import uk.co.engine.interfiction.module.account.domain.User;
-import uk.co.engine.interfiction.module.account.exception.UserAccountCreationException;
+import uk.co.engine.interfiction.module.account.service.UserAccountCreationException;
 import uk.co.engine.interfiction.module.account.model.Credential;
 import uk.co.engine.interfiction.module.account.port.HasAccountModifier;
 import uk.co.engine.interfiction.module.account.port.HasAccountSelector;
