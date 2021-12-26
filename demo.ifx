@@ -1,0 +1,50 @@
+story: The Little Red Riding Hood
+
+    + props
+        - Little Red Riding Hood: rrh
+            + fx
+                - color: red
+        - Big Bad Wolf: bbw
+            + fx
+                - color: grey
+
+    series :series1
+
+        + props
+            - The Woodman :wm
+
+        scene :Red Riding Hood is in the wood
+            + audio
+                - name: background
+                - constant: true
+            + fx
+                - colour: black
+                - delay: 1.5s
+
+            + frame: f1
+                + image
+                    - name: woods1
+                + fx
+                    - fadeIn: 2s
+                + dialog
+                    rrh > Hello
+                        + audio
+                           - name: s1_a1
+                    bbw > Hello little red riding hood
+                        + audio
+                            - name: s1_a2
+                    rrh > Do you want an apple?
+                + fx
+                    - fadeOut: 2s
+                    - color: green
+
+            + frame: f2
+                + image
+                    - name: closeup
+                + dialog:
+                    bbw > What is in your basket?
+                    bbw > No
+                    rrh > Okay, see you later
+                    bbw > I'll see you first
+
+        scene: scene2
