@@ -13,10 +13,12 @@
     <name>InterFiction Engine</name>
 
     <modules>
+        <module>model</module>
+        <module>model-io</module>
     </modules>
 
     <properties>
-        <java.version>14</java.version>
+        <java.version>17</java.version>
 
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
